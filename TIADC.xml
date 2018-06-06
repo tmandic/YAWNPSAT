@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\tmandic\Dropbox\KiCad\2016\Tvrtko\YAWN v4\TIADC\TIADC.sch</source>
+    <date>19.1.2017. 10:44:44</date>
+    <tool>Eeschema 4.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>YAWN</title>
+        <company>University of Zagreb Faculty of Electrical Engineering and Computing</company>
+        <rev>v3</rev>
+        <date>2017-01-16</date>
+        <source>TIADC.sch</source>
+        <comment number="1" value="Authors: N. Budimir, T. Mandic, A. Baric"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C9">
+      <value>1.5F</value>
+      <footprint>komponente:CAP&amp;BAT</footprint>
+      <fields>
+        <field name="Farnell">2472074+2115303</field>
+        <field name="Q10+ (GBP)">2.78+0.683</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E2C2E7</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>OPT3001</value>
+      <footprint>komponente:USON-6</footprint>
+      <fields>
+        <field name="Farnell">2466963</field>
+        <field name="Q10+ (GBP)">2.46</field>
+      </fields>
+      <libsource lib="librarry" part="AMBIENT_LIGHT_SENSOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E30E93</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>BLM21</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">1515661</field>
+        <field name="Q10+ (GBP)">0.0536</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E80BD8</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>USB</value>
+      <footprint>komponente:USBMICRO</footprint>
+      <fields>
+        <field name="Farnell">2293755</field>
+        <field name="Q10+ (GBP)">0.522</field>
+      </fields>
+      <libsource lib="librarry" part="USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E91D3D</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>220nF</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">2074517</field>
+        <field name="Q10+ (GBP)">0.0281</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E9526F</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>15</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">2447576</field>
+        <field name="Q10+ (GBP)">0.005</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E9622E</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">2320833</field>
+        <field name="Q10+ (GBP)">0.15</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E998A0</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>C</value>
+      <footprint>komponente:SPST</footprint>
+      <fields>
+        <field name="Farnell">1555987</field>
+        <field name="Q10+ (GBP)">0.0766</field>
+      </fields>
+      <libsource lib="librarry" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB22EA</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>D</value>
+      <footprint>komponente:SPST</footprint>
+      <fields>
+        <field name="Farnell">1555987</field>
+        <field name="Q10+ (GBP)">0.0766</field>
+      </fields>
+      <libsource lib="librarry" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB2361</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>A</value>
+      <footprint>komponente:SPST</footprint>
+      <fields>
+        <field name="Farnell">1555987</field>
+        <field name="Q10+ (GBP)">0.0766</field>
+      </fields>
+      <libsource lib="librarry" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB23F8</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>BLE-HM11</value>
+      <footprint>komponente:HM-11</footprint>
+      <fields>
+        <field name="Farnell">ebay</field>
+        <field name="Q10+ (GBP)">7.3</field>
+      </fields>
+      <libsource lib="librarry" part="Bluetooth_V4.0_HM-11_BLE_Module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB3AB0</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>820R</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">2074517</field>
+        <field name="Q10+ (GBP)">0.0281</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EC3E29</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>redled</value>
+      <footprint>komponente:PLCC2</footprint>
+      <fields>
+        <field name="Farnell">1328348</field>
+        <field name="Q10+ (GBP)">0.238</field>
+      </fields>
+      <libsource lib="librarry" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EC5A51</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>greenled</value>
+      <footprint>komponente:PLCC2</footprint>
+      <fields>
+        <field name="Farnell">1659076</field>
+        <field name="Q10+ (GBP)">0.257</field>
+      </fields>
+      <libsource lib="librarry" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EC5AA2</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>B</value>
+      <footprint>komponente:SPST</footprint>
+      <fields>
+        <field name="Farnell">1555987</field>
+        <field name="Q10+ (GBP)">0.0766</field>
+      </fields>
+      <libsource lib="librarry" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56ECE311</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>HDC1080</value>
+      <footprint>komponente:PWSON-N6</footprint>
+      <fields>
+        <field name="Farnell">2535017</field>
+        <field name="Q10+ (GBP)">4.13</field>
+      </fields>
+      <libsource lib="librarry" part="HDC1080_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56ED8D9D</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">9332391</field>
+        <field name="Q10+ (GBP)">0.0018</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EEC9BE</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>12 MHz</value>
+      <footprint>komponente:HC49-US</footprint>
+      <fields>
+        <field name="Farnell">2467681</field>
+        <field name="Q10+ (GBP)">0.305</field>
+      </fields>
+      <libsource lib="device" part="Crystal_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EF333A</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>18pF</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">2497020</field>
+        <field name="Q10+ (GBP)">0.0293</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EF7D38</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>18pF</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">2497020</field>
+        <field name="Q10+ (GBP)">0.0293</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EF8103</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>820R</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">2074517</field>
+        <field name="Q10+ (GBP)">0.0281</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EC3EF4</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>47k</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">1469929</field>
+        <field name="Q10+ (GBP)">0.0164</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EFE624</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>47k</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">1469929</field>
+        <field name="Q10+ (GBP)">0.0164</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F0663A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>47k</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">1469929</field>
+        <field name="Q10+ (GBP)">0.0164</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F0E175</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>47k</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">1469929</field>
+        <field name="Q10+ (GBP)">0.0164</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F12D8C</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>komponente:RESET</footprint>
+      <fields>
+        <field name="Farnell">2456210</field>
+        <field name="Q10+ (GBP)">0.172</field>
+      </fields>
+      <libsource lib="librarry" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F16CF3</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>220k</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">9234292</field>
+        <field name="Q10+ (GBP)">0.013</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F177CA</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>47k</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">1469929</field>
+        <field name="Q10+ (GBP)">0.0164</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F1BD3B</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">9332391</field>
+        <field name="Q10+ (GBP)">0.0018</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F2ED8A</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">9332391</field>
+        <field name="Q10+ (GBP)">0.0018</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F38579</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>TPL5110</value>
+      <footprint>komponente:SOT-23-6</footprint>
+      <fields>
+        <field name="Farnell">2471145</field>
+        <field name="Q10+ (GBP)">0.832</field>
+      </fields>
+      <libsource lib="librarry" part="TPL5110"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F04FED</tstamp>
+    </comp>
+    <comp ref="VR2">
+      <value>VR</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">8832463</field>
+        <field name="Q10+ (GBP)">0.502</field>
+      </fields>
+      <libsource lib="librarry" part="VR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F6877A</tstamp>
+    </comp>
+    <comp ref="VR1">
+      <value>VR</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">8832463</field>
+        <field name="Q10+ (GBP)">0.502</field>
+      </fields>
+      <libsource lib="librarry" part="VR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F692C8</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>PIC16(L)F1459</value>
+      <footprint>komponente:SSOP-20</footprint>
+      <fields>
+        <field name="Farnell">2305825</field>
+        <field name="Q10+ (GBP)">1.20</field>
+      </fields>
+      <libsource lib="librarry" part="PIC16(L)F145X"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F6DFFE</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>R</value>
+      <footprint>komponente:0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F1BCD6</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>FDC6312P</value>
+      <footprint>komponente:SSOT-6</footprint>
+      <fields>
+        <field name="Farnell">1700713</field>
+        <field name="Q10+ (GBP)">0.0958</field>
+      </fields>
+      <libsource lib="librarry" part="PMOS_DGS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F20868</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>DNP</value>
+      <footprint>komponente:0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F33452</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>R</value>
+      <footprint>komponente:0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F3C7BF</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">2112709</field>
+        <field name="Q10+ (GBP)">0.41</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F52887</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">1759167</field>
+        <field name="Q10+ (GBP)">0.0115</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F5913D</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">2320833</field>
+        <field name="Q10+ (GBP)">0.15</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5766D5C9</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576C3725</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576C4B10</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576DD894</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576DD89A</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576E2C7A</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576E2C80</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576E9B6C</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576E9B72</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576F0CAD</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57703A1A</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57703A20</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5770EC9B</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5770ECA1</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>2x10pin_header</value>
+      <footprint>komponente:HEADER</footprint>
+      <fields>
+        <field name="Farnell">1667516</field>
+        <field name="Q10+ (GBP)">2.04</field>
+        <field name="Comment">2x (price doubled)</field>
+      </fields>
+      <libsource lib="librarry" part="2x10pin_header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576D788C</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>NRF24L01+</value>
+      <footprint>komponente:NRF24L01+-mini</footprint>
+      <fields>
+        <field name="Farnell">ebay</field>
+        <field name="Q10+ (GBP)">0.9</field>
+      </fields>
+      <libsource lib="librarry" part="NRF24L01+"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576E7175</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576D40B0</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576D767D</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587A0D2E</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>JUMPER</value>
+      <footprint>komponente:J1x04</footprint>
+      <libsource lib="TIADC-cache" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587A47D8</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>360</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">2323839</field>
+        <field name="Q10+ (GBP)">0.013</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587D38E2</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>DA3X101K0L</value>
+      <footprint>komponente:SOT-23</footprint>
+      <fields>
+        <field name="Farnell">2284128</field>
+        <field name="Q10+ (GBP)">0.0293</field>
+      </fields>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587D9516</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>220</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">9332804</field>
+        <field name="Q10+ (GBP)">0.0018</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587DF1D4</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>BAT54W</value>
+      <footprint>komponente:SOT-323D</footprint>
+      <fields>
+        <field name="Farnell">1081197</field>
+        <field name="Q10+ (GBP)">0.17</field>
+      </fields>
+      <libsource lib="TIADC-cache" part="D_Schottky_Small_13"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E9DF0</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>220</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">9332804</field>
+        <field name="Q10+ (GBP)">0.0018</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F1CBA</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">1759167</field>
+        <field name="Q10+ (GBP)">0.0115</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F5A09</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">1759167</field>
+        <field name="Q10+ (GBP)">0.0115</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F6788</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">1759167</field>
+        <field name="Q10+ (GBP)">0.0115</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F7091</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">1759167</field>
+        <field name="Q10+ (GBP)">0.0115</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F7698</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">1759167</field>
+        <field name="Q10+ (GBP)">0.0115</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F80E0</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">1759167</field>
+        <field name="Q10+ (GBP)">0.0115</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F9734</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>komponente:0805</footprint>
+      <fields>
+        <field name="Farnell">1759167</field>
+        <field name="Q10+ (GBP)">0.0115</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F9E2C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="librarry" part="2x10pin_header">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">2x10pin_header</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="power_out"/>
+        <pin num="3" name="~" type="power_in"/>
+        <pin num="4" name="~" type="power_in"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="power_in"/>
+        <pin num="13" name="~" type="power_in"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="passive"/>
+        <pin num="17" name="~" type="passive"/>
+        <pin num="18" name="~" type="passive"/>
+        <pin num="19" name="~" type="passive"/>
+        <pin num="20" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="librarry" part="AMBIENT_LIGHT_SENSOR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMBIENT_LIGHT_SENSOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="ADDR" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SCL" type="passive"/>
+        <pin num="5" name="INT" type="passive"/>
+        <pin num="6" name="SDA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="librarry" part="Bluetooth_V4.0_HM-11_BLE_Module">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Bluetooth_V4.0_HM-11_BLE_Module</field>
+      </fields>
+      <pins>
+        <pin num="1" name="UART_RTS" type="passive"/>
+        <pin num="2" name="UART_TX" type="passive"/>
+        <pin num="3" name="UART_CTS" type="passive"/>
+        <pin num="4" name="UART_RX" type="passive"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="NV" type="NotConnected"/>
+        <pin num="8" name="NV" type="NotConnected"/>
+        <pin num="9" name="VCC" type="passive"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+        <pin num="11" name="RST" type="passive"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="PIO3" type="passive"/>
+        <pin num="14" name="PIO2" type="passive"/>
+        <pin num="15" name="PIO1" type="passive"/>
+        <pin num="16" name="PIO0" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Crystal_Small">
+      <description>Two pin crystal, small symbol</description>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TIADC-cache" part="D_Schottky_Small_13">
+      <description>Diode Schottky</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small_13</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="librarry" part="HDC1080_">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HDC1080_</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="SCL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TIADC-cache" part="JUMPER">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="librarry" part="Led_Small">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="librarry" part="NRF24L01+">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NRF24L01+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3.3V" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CE" type="passive"/>
+        <pin num="4" name="CSN" type="passive"/>
+        <pin num="5" name="SCK" type="passive"/>
+        <pin num="6" name="MOSI" type="passive"/>
+        <pin num="7" name="MISO" type="passive"/>
+        <pin num="8" name="IRQ" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="librarry" part="PIC16(L)F145X">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC16(L)F145X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="RA5/SOSCI/OSC1" type="passive"/>
+        <pin num="3" name="RA4/AN3/SOSCO/OSC2" type="passive"/>
+        <pin num="4" name="RA3/MCLR" type="passive"/>
+        <pin num="5" name="RC5" type="passive"/>
+        <pin num="6" name="RC4" type="passive"/>
+        <pin num="7" name="RC3/AN1" type="passive"/>
+        <pin num="8" name="RC6/SS" type="passive"/>
+        <pin num="9" name="RC7/SDO" type="passive"/>
+        <pin num="10" name="RB7/TX/CK" type="passive"/>
+        <pin num="11" name="RB6/SCL/SCK" type="passive"/>
+        <pin num="12" name="RB5/RX/DX" type="passive"/>
+        <pin num="13" name="RB4/SDA/SDI" type="passive"/>
+        <pin num="14" name="RC2/AN2" type="passive"/>
+        <pin num="15" name="RC1/AN5/ICSPCLK" type="passive"/>
+        <pin num="16" name="RC0/VREF+/AN4/ICSPDAT" type="passive"/>
+        <pin num="17" name="VUSB3V3" type="passive"/>
+        <pin num="18" name="RA1/D-" type="passive"/>
+        <pin num="19" name="RA0/D+" type="passive"/>
+        <pin num="20" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="librarry" part="PMOS_DGS">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PMOS_DGS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+        <pin num="4" name="D" type="passive"/>
+        <pin num="5" name="S" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="librarry" part="SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="librarry" part="TPL5110">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPL5110</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="DELAY/M_DRV" type="passive"/>
+        <pin num="4" name="DONE" type="passive"/>
+        <pin num="5" name="DRV" type="passive"/>
+        <pin num="6" name="EN/ONE_SHOT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="librarry" part="USB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="SHLD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="librarry" part="VR">
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">VR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="librarry">
+      <uri>C:\Users\tmandic\Dropbox\KiCad\2016\Tvrtko\YAWN v4\TIADC\librarry.lib</uri>
+    </library>
+    <library logical="TIADC-cache">
+      <uri>C:\Users\tmandic\Dropbox\KiCad\2016\Tvrtko\YAWN v4\TIADC\TIADC-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/D-">
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J10" pin="1"/>
+      <node ref="U3" pin="18"/>
+      <node ref="VR1" pin="1"/>
+    </net>
+    <net code="2" name="/D+">
+      <node ref="J1" pin="1"/>
+      <node ref="U3" pin="19"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J9" pin="1"/>
+      <node ref="VR2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C12-Pad1)">
+      <node ref="U3" pin="17"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="4" name="/H20">
+      <node ref="U4" pin="20"/>
+      <node ref="J10" pin="2"/>
+      <node ref="J9" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D2-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="8" name="Net-(R18-Pad1)">
+      <node ref="U9" pin="3"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="9" name="/VDDY">
+      <node ref="U5" pin="9"/>
+      <node ref="Q2" pin="6"/>
+      <node ref="J14" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="10" name="/H3">
+      <node ref="U4" pin="3"/>
+      <node ref="J15" pin="2"/>
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="11" name="/AN0">
+      <node ref="J11" pin="2"/>
+      <node ref="U3" pin="14"/>
+      <node ref="J16" pin="1"/>
+    </net>
+    <net code="12" name="/AN1">
+      <node ref="U3" pin="7"/>
+      <node ref="J17" pin="1"/>
+    </net>
+    <net code="13" name="/ICSPDAT">
+      <node ref="U4" pin="14"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="14" name="/ICSPCLK">
+      <node ref="U3" pin="15"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="15" name="/H16">
+      <node ref="J12" pin="2"/>
+      <node ref="U4" pin="16"/>
+      <node ref="J16" pin="2"/>
+    </net>
+    <net code="16" name="/H17">
+      <node ref="J17" pin="2"/>
+      <node ref="J13" pin="2"/>
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="17" name="Net-(U8-Pad8)">
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="18" name="/VUSB">
+      <node ref="U1" pin="1"/>
+      <node ref="J15" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="19" name="/GPIO0">
+      <node ref="U4" pin="18"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="20" name="/GPIO1">
+      <node ref="R9" pin="1"/>
+      <node ref="U4" pin="19"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="21" name="/DONE">
+      <node ref="J8" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="22" name="/SCL/SCK">
+      <node ref="U4" pin="6"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U6" pin="6"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="23" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="24" name="Net-(L1-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="VR2" pin="2"/>
+      <node ref="VR1" pin="2"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="25" name="/VCAP">
+      <node ref="C9" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="26" name="/VDDX">
+      <node ref="J6" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U9" pin="6"/>
+      <node ref="U9" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="27" name="/SDA/SDI">
+      <node ref="R13" pin="2"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U7" pin="6"/>
+      <node ref="U8" pin="7"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="28" name="/SWA">
+      <node ref="J2" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="29" name="/SWB">
+      <node ref="R5" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="30" name="/VDD">
+      <node ref="C16" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U8" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="Q2" pin="5"/>
+      <node ref="U3" pin="1"/>
+      <node ref="Q2" pin="4"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="31" name="Net-(Q2-Pad3)">
+      <node ref="R11" pin="1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="32" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="33" name="GND">
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U5" pin="12"/>
+      <node ref="U9" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U3" pin="20"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U6" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="34" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="35" name="/\MCLR">
+      <node ref="D3" pin="3"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="36" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="37" name="/TX/CK">
+      <node ref="U5" pin="2"/>
+      <node ref="U3" pin="10"/>
+      <node ref="J13" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="38" name="/RX/DT">
+      <node ref="U3" pin="12"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U5" pin="4"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="39" name="/CE">
+      <node ref="U3" pin="3"/>
+      <node ref="U5" pin="11"/>
+      <node ref="C11" pin="1"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="40" name="/SWC">
+      <node ref="SW2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="41" name="/SWD">
+      <node ref="R2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="42" name="/IRQ">
+      <node ref="C10" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U4" pin="10"/>
+      <node ref="R8" pin="1"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="43" name="Net-(U5-Pad16)">
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="44" name="Net-(U5-Pad15)">
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="45" name="Net-(U5-Pad14)">
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="46" name="Net-(U5-Pad13)">
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="47" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="48" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="49" name="Net-(U6-Pad4)">
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="50" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="51" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="52" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="53" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="54" name="Net-(U5-Pad7)">
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="55" name="Net-(U5-Pad8)">
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="56" name="Net-(U5-Pad10)">
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="57" name="/\SS">
+      <node ref="U4" pin="7"/>
+      <node ref="U3" pin="8"/>
+      <node ref="J8" pin="1"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="58" name="/SDO">
+      <node ref="U3" pin="9"/>
+      <node ref="U8" pin="6"/>
+      <node ref="U4" pin="8"/>
+    </net>
+  </nets>
+</export>
